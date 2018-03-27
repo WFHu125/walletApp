@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'iconfont';
+  src:  url('../fonts/iconfont.eot?xvufs9');
+  src:  url('../fonts/iconfont.eot?xvufs9#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.ttf?xvufs9') format('truetype'),
+    url('../fonts/iconfont.woff?xvufs9') format('woff'),
+    url('../fonts/iconfont.svg?xvufs9#iconfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-还款方式:before {
+  content: "\e90f";
+  font-size: 20px;
+}
+.icon-借款:before {
+  content: "\e910";
+  font-size: 20px;
+}
+.icon-我的:before {
+  content: "\e911";
+  font-size: 20px;
+}
+.icon-left:before {
+  content: "\e900";
+  font-size: 20px;
+  color: #888888;
+}
+.icon-right:before {
+  content: "\e901";
+  font-size: 20px;
+  color: #aaaaaa;
+}
+.icon-代理商:before {
+  content: "\e902";
+  color: #26e2e1;
+  font-size: 30px;
+}
+.icon-对号:before {
+  content: "\e903";
+}
+
+.icon-金币:before {
+  content: "\e905";
+  color: #30aafd;
+}
+.icon-关于我们:before {
+  content: "\e904";
+  color: #ff7010;
+  font-size: 30px;
+}
+.icon-客服:before {
+  content: "\e906";
+  color: #00cf6e;
+  font-size: 30px;
+}
+.icon-认证:before {
+  content: "\e907";
+  color: #029cf5;
+  font-size: 30px;
+}
+.icon-设置:before {
+  content: "\e908";
+  color: #00c8d0;
+  font-size: 30px;
+}
+.icon-分享:before {
+  content: "\e90a";
+  color: #1afa29;
+  font-size: 30px;
+}
+.icon-问题:before {
+  content: "\e90b";
+  color: #faad5a;
+  font-size: 30px;
+}
+.icon-微信:before {
+  content: "\e909";
+  color: rgb(8, 190, 20);
+}
+
+.icon-银行卡:before {
+  content: "\e90d";
+  color: #efcb5c;
+}
+.icon-支付宝:before {
+  content: "\e90e";
+  color: #009fe8;
+}
+
+.icon-用户:before {
+  content: "\e915";
+  font-size: 18px;
+}
+.icon-密码:before {
+  content: "\e913";
+  font-size: 18px;
+}
+.icon-验证:before {
+  content: "\e914";
+  font-size: 18px;
+}
+
+
+
+

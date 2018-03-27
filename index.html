@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="telephone=no" name="format-detection"/>
+  <title>咱的钱包</title>
+  <!--<link rel="stylesheet" href="//unpkg.com/vue-ydui/dist/ydui.base.css">-->
+  <link rel="stylesheet" href="static/css/reset.css">
+  <link rel="shortcut icon" href="/static/favicon.ico"/>
+  <!-- 引入自适应类库，不建议在main.js里引入 -->
+  <!--<style>-->
+    <!--.loading {-->
+      <!--position: fixed;-->
+      <!--width: 100%;-->
+      <!--height: 100vh;-->
+      <!--background: linear-gradient(#31acbe, #31438b);-->
+    <!--}-->
+
+    <!--.loading div {-->
+      <!--width: 100%;-->
+      <!--height: 100vh;-->
+      <!--padding-top: 40vh;-->
+      <!--text-align: center;-->
+      <!--color: white;-->
+    <!--}-->
+  <!--</style>-->
+  <!--<script language="JavaScript" type="text/javascript">-->
+    <!--function window_onload() {-->
+      <!--document.querySelector('.loading').style.display = 'none';-->
+    <!--}-->
+  <!--</script>-->
+</head>
+<body>
+<!--<div class="loading">-->
+  <!--<div>-->
+    <!--咱的钱包欢迎您!<br><br>-->
+    <!--Welcome your wallet!<br><br>-->
+    <!--<p>资源正在加载中，请稍后哦~</p>-->
+  <!--</div>-->
+<!--</div>-->
+<div id="app"></div>
+<!-- built files will be auto injected -->
+<script>
+  var ios = !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+  function Callback(str) {
+    localStorage.setItem('contact', JSON.stringify(str));
+  }
+  if (ios) {
+    Callback();
+  }
+</script>
+</body>
+</html>
